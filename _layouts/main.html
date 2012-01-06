@@ -62,17 +62,23 @@ jQuery('.ui-state-default').live('mouseover mouseout', function(evt){
 
       
       {{ content }}
+      
+      <div style="clear:both"></div>
       </div>
 
 
     </div> <!-- content box -->
 
-    <div id="bottombar" style="padding-bottom: 5px; padding-left: 0px;">
-	<div style="padding-left: 17px">
-        Created by the <a target="_blank" style="text-decoration: underline" href="http://code.google.com/p/mytardis/">MyTARDIS Team</a> - Version 2.1
-    	</div>
-	</div> <!-- bottombar -->
+    
   </div> <!-- page -->
+  <div id="bottombar" style="width: 100%; height: 22px">
+	<div style="position: absolute; left: 17px">
+        Created by the <a target="_blank" style="text-decoration: underline" href="http://code.google.com/p/mytardis/">MyTARDIS Team</a>
+    	</div>
+    	<div style="position: absolute; right: 17px">
+        Last updated: {{site.time}}
+    	</div>
+  </div> <!-- bottombar -->
 </body>
 
 </html>
