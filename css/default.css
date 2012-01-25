@@ -827,3 +827,25 @@ div.edit_schema {
     margin-bottom: 5px;
     width: 40%;
 }
+
+#bottombar .left-text {
+    position: absolute;
+    left: 17px;
+}
+
+#bottombar .right-text {
+    position: absolute;
+    right: 17px;
+}
+
+#bottombar .center-text {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -4px;
+    padding: 2px;
+    width: 104px;
+    height: 16px;
+    text-align: center;
+    background-color: white;
+    border-radius: 2px;
+}
