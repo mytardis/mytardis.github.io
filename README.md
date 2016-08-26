@@ -1,7 +1,10 @@
-MyTardis Website
-================
+MyTardis Community Resources
+============================
 
-The MyTardis website is managed by [Jekyll][1] and [GitHub Pages][2].
+The main MyTardis project website is on [mytardis.org][1]
+
+The MyTardis Community resources website is managed by [Jekyll][2] and
+[GitHub Pages][3].
 
 You can check it out and run it on your own machine quite easily:
 
@@ -13,9 +16,6 @@ You can check it out and run it on your own machine quite easily:
 If you'd like to submit content or fix typos, please fork this repository,
 make your changes, then submit a pull request.
 
-Got questions? Please ask them on [tardis-devel][3].
-
-
-[1]: https://github.com/mojombo/jekyll
-[2]: http://pages.github.com/
-[3]: http://groups.google.com/group/tardis-devel
+[1]: http://mytardis.org
+[2]: https://github.com/mojombo/jekyll
+[3]: http://pages.github.com/

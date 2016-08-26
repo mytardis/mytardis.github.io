@@ -1,6 +1,6 @@
 {
   "name": "MyTardis Community Resources",
-  "tagline": "Here you will find community resources, such as a list of apps and filters, as well as MyTardis enhancement proposals",
+  "tagline": "Community resources, apps, filters, and MyTardis enhancement proposals",
   "body": "MyTardis Community Resources\r\n============================\r\n\r\nThe main website for the MyTardis project is [mytardis.org][1]\r\n\r\nHere you will find community resources, such as a list of apps and filters, as\r\nwell as MyTardis enhancement proposals.\r\n\r\n[1]: http://mytardis.org\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
