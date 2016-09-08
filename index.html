@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<div class="header">
+    <h1>{{ site.name }}</h1>
+    <ul>
+        {% for item in site.data.navigation %}
+        <li>
+            <a href="{{ item.url }}">{{ item.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+<div class="summary">
+    <h1>Overview</h1>
+    <p>The main website for the MyTardis project is
+    <a href="http://mytardis.org">mytardis.org</a>.</p>
+    <p>
+    Here and on <a href="https://github.com/mytardis/mytardis.github.io/wiki">the
+      wiki</a> you will find community resources, such as a list of apps and filters, as
+    well as MyTardis enhancement proposals and other project information.
+  </p>
+</div>
+<div class="blog">
+    <h1>MyTardis Enhancement Proposals</h1>
+    <p>Proposals are submitted, dicussed and accepted as pull requests against
+      files in the _posts directory in <a href="https://github.com/mytardis/mytardis.github.io">https://github.com/mytardis/mytardis.github.io</a>.
+    </p>
+    <ul>
+        {% for post in site.posts %}
+        <li>
+            <span class="date">{{ post.date | date: '%Y %b %d' }}</span> - <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>

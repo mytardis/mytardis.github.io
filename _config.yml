@@ -1,3 +1,25 @@
-exclude: ["README.md"]
+exclude: ["README.md", "LICENSE"]
 timezone: Australia/Melbourne
 category-list: [proposals, reference, resources]
+
+
+# Blog settings
+permalink: /blog/:title
+
+
+# My variables
+name: MyTardis Community Resources
+description: Community resources, apps, filters, and MyTardis enhancement proposals
+google_verification: null
+
+# Sass
+sass:
+  style: :compressed
+  sass_dir: _sass
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
