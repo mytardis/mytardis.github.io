@@ -3,6 +3,17 @@ MyTardis Community Resources
 
 The main MyTardis project website is on [mytardis.org][1]
 
+This repo and the associated Wiki are used to track community resources such as
+apps and filters and provide a place to propose, discuss and agree on major
+changes to the MyTardis code.
+
+Due to technical limitations of the software, we collect the proposals in the
+directory "_posts". If you have a proposal please submit a pull request to
+add your file there.
+
+The GitHub web interface allows creating files and editing and submitting
+the changes via pull request.
+
 The MyTardis Community resources website is managed by [Jekyll][2] and
 [GitHub Pages][3].
 
